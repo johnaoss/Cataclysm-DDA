@@ -1,6 +1,8 @@
 name: Clang-tidy 18
 
 on:
+  workflow_dispatch:
+
   push:
     branches:
     - master
